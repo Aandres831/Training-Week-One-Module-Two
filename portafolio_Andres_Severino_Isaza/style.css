@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #191c32;
+}
+
+header h1{
+    color: aqua;
+    /* padding: 12px;
+    margin: 10px; */
+    font-size: 3.5em;
+    background-color: #191c32;
+}
+
+.navbar-list {
+    display: flex;
+    padding: 1em;
+    margin: .3em;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+    
+}
+.navbar-list a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.navbar-list li{
+    padding-right: 1em;
+}
+
+
+
+.about{
+    justify-items: center;
+    background-color: #191c32;
+    font-size: 1.5em;
+    display: flex;
+    color: rgb(0, 3, 3);
+    font-style: normal;
+}
+.about .image img{
+    justify-items: center;
+}
+
+.about p{
+    justify-items: center;  
+    width: 50%;
+    color: #908589;
+}
+.habilities ul{
+    display: flexbox;
+    list-style: none;
+    gap: 2rem;
+    padding: 3em ;
+    margin: 3rem;
+    justify-content:space-between ;
+}
+
+.image{
+    width: 220px;
+    height: 220px;
+    justify-content: center;
+}
+
+main{
+    background-color: #191c32;
+}
+
+.habilities{
+    text-decoration: none;
+    list-style: none;
+    /* padding: 105px;
+    margin: 35px; */
+}
+
+
+.habilities ul a{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+    /* padding: 15px; */
+}
+
+/* 
+.habilities{
+    padding: -15px;
+    margin: -80px; 
+}*/
+
+.habilities tii{
+    
+}
+
+
+
+.projects h2 {
+    width: 75%;
+    column-gap: 2em;
+    
+
+}
+
+.projects h2{
+    color: aqua;
+}
+
+
+footer{
+    background-color:#191c32 ;
+}
+
+
+/* .projects p{
+    justify-content: center;
+} */
+
+
